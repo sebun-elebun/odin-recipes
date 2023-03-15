@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif; 
+}
+
+h1, h3, img, p {
+    margin-left: 14px;
+}
+
+h2 { 
+    position: sticky;
+    top: 0;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #666;
+    overflow: hidden;
+}
+
+.topnav li a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active a) {
+    background-color: #444;
+  }
+
+.active a {background-color: rgb(0, 128, 100);}
